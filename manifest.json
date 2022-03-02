@@ -1,0 +1,17 @@
+{
+    "name": "click2dial",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "description": "Simple click2dial relying on your operating system's capabilities to handle tel-links.",
+    "permissions": [
+        "contextMenus"
+    ],
+    "background": {
+    	"service_worker": "click2dial.js"
+    },
+    "icons": {
+        "18": "icon18.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
